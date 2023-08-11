@@ -32,7 +32,6 @@
     background: url(../img/lol.jpg) center / cover no-repeat;
 }
 
-
 .destaques__secundario:nth-child(4) {
     background: url(../img/slack.png) center / cover no-repeat;
 }
@@ -43,6 +42,16 @@
 
 .destaques__secundario:nth-child(6) {
     background: url(../img/cs-go.jpg) center / cover no-repeat;
+}
+
+.destaques div:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.destaques a:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 
